@@ -7,7 +7,7 @@ class Settings:
         self.screen_width = 1200
         self.screen_height = 600
         self.bg_color = (230,230,230)
-        self.ship_speed_factor = 1.5
+
 
         #子弹的设置
         self.bullet_speed_factor = 1.5
@@ -21,3 +21,7 @@ class Settings:
         self.fleet_drop_speed = 10
         #fleet_direction为1表示向右移，为-1表示向左移
         self.fleet_direction = -1
+
+        #飞船设置
+        self.ship_speed_factor = 1.5
+        self.ship_limit = 3
